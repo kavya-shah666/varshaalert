@@ -104,6 +104,11 @@ Open <http://localhost:5173> 🎉 (keep both terminals running).
 > inside the app. For full install + notifications, deploy the frontend on an HTTPS host
 > (e.g. Vercel/Netlify) and the backend on Render/Railway.
 
+### 🌐 Put it online for anyone to open
+
+See **[DEPLOY.md](DEPLOY.md)** – free hosting on GitHub + Render (backend) + Vercel (website),
+so friends and mentors just open a link.
+
 ### 4. Real SMS with Twilio (optional)
 
 1. Create a free account at <https://www.twilio.com/try-twilio> and get a trial phone number.
