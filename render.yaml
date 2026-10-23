@@ -1,0 +1,14 @@
+# render.yaml - tells Render.com how to run the FastAPI backend online.
+# Render reads this file when you choose "New > Blueprint" and pick this GitHub repo.
+services:
+  - type: web
+    name: varshaalert-api
+    runtime: python
+    plan: free
+    rootDir: backend                       # the backend code is in this folder
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.5

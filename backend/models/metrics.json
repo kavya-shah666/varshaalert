@@ -1,0 +1,2978 @@
+{
+  "trained_on": "2022-01-01 to 2023-12-31",
+  "tested_on": "2024-01-01 to 2024-12-31",
+  "train_rows": 25305,
+  "test_rows": 12775,
+  "features": [
+    "rain_1d",
+    "rain_3d",
+    "rain_7d",
+    "humidity",
+    "temperature",
+    "pressure",
+    "wind_speed",
+    "cloud_top_temp",
+    "radar_dbz",
+    "nwp_rain",
+    "month",
+    "elevation"
+  ],
+  "regression": {
+    "rmse": 9.83,
+    "mae": 2.89,
+    "r2": 0.78,
+    "nwp_baseline_rmse": 14.26,
+    "improvement_over_nwp_pct": 31.0
+  },
+  "classification": {
+    "threshold_mm": 64.5,
+    "precision": 0.55,
+    "recall": 0.886,
+    "f1": 0.679,
+    "accuracy": 0.9861,
+    "confusion_matrix": [
+      [
+        12411,
+        153
+      ],
+      [
+        24,
+        187
+      ]
+    ],
+    "labels": [
+      "No heavy rain",
+      "Heavy rain"
+    ]
+  },
+  "level_confusion": {
+    "labels": [
+      "green",
+      "yellow",
+      "orange",
+      "red"
+    ],
+    "matrix": [
+      [
+        12480,
+        83,
+        1,
+        0
+      ],
+      [
+        49,
+        56,
+        16,
+        2
+      ],
+      [
+        4,
+        22,
+        22,
+        13
+      ],
+      [
+        0,
+        3,
+        15,
+        9
+      ]
+    ]
+  },
+  "feature_importance": [
+    {
+      "feature": "nwp_rain",
+      "importance": 0.802
+    },
+    {
+      "feature": "humidity",
+      "importance": 0.0559
+    },
+    {
+      "feature": "cloud_top_temp",
+      "importance": 0.022
+    },
+    {
+      "feature": "rain_7d",
+      "importance": 0.018
+    },
+    {
+      "feature": "radar_dbz",
+      "importance": 0.0177
+    },
+    {
+      "feature": "pressure",
+      "importance": 0.0169
+    },
+    {
+      "feature": "wind_speed",
+      "importance": 0.0167
+    },
+    {
+      "feature": "temperature",
+      "importance": 0.0164
+    },
+    {
+      "feature": "rain_3d",
+      "importance": 0.0117
+    },
+    {
+      "feature": "rain_1d",
+      "importance": 0.0113
+    },
+    {
+      "feature": "elevation",
+      "importance": 0.0063
+    },
+    {
+      "feature": "month",
+      "importance": 0.0051
+    }
+  ],
+  "scatter": [
+    {
+      "actual": 101.4,
+      "predicted": 76.5
+    },
+    {
+      "actual": 141.9,
+      "predicted": 117.3
+    },
+    {
+      "actual": 500.0,
+      "predicted": 166.0
+    },
+    {
+      "actual": 84.5,
+      "predicted": 75.6
+    },
+    {
+      "actual": 115.0,
+      "predicted": 87.9
+    },
+    {
+      "actual": 185.7,
+      "predicted": 109.9
+    },
+    {
+      "actual": 147.4,
+      "predicted": 218.0
+    },
+    {
+      "actual": 146.3,
+      "predicted": 107.0
+    },
+    {
+      "actual": 154.7,
+      "predicted": 120.4
+    },
+    {
+      "actual": 73.7,
+      "predicted": 129.6
+    },
+    {
+      "actual": 64.7,
+      "predicted": 65.6
+    },
+    {
+      "actual": 94.6,
+      "predicted": 48.2
+    },
+    {
+      "actual": 349.8,
+      "predicted": 166.1
+    },
+    {
+      "actual": 265.4,
+      "predicted": 166.7
+    },
+    {
+      "actual": 191.1,
+      "predicted": 194.5
+    },
+    {
+      "actual": 309.6,
+      "predicted": 321.9
+    },
+    {
+      "actual": 176.1,
+      "predicted": 77.5
+    },
+    {
+      "actual": 292.8,
+      "predicted": 140.0
+    },
+    {
+      "actual": 82.7,
+      "predicted": 62.2
+    },
+    {
+      "actual": 138.4,
+      "predicted": 133.1
+    },
+    {
+      "actual": 90.4,
+      "predicted": 71.6
+    },
+    {
+      "actual": 136.7,
+      "predicted": 81.6
+    },
+    {
+      "actual": 67.8,
+      "predicted": 49.6
+    },
+    {
+      "actual": 74.0,
+      "predicted": 41.1
+    },
+    {
+      "actual": 95.0,
+      "predicted": 128.5
+    },
+    {
+      "actual": 117.0,
+      "predicted": 65.3
+    },
+    {
+      "actual": 212.0,
+      "predicted": 124.0
+    },
+    {
+      "actual": 133.2,
+      "predicted": 116.7
+    },
+    {
+      "actual": 72.0,
+      "predicted": 76.7
+    },
+    {
+      "actual": 72.7,
+      "predicted": 96.5
+    },
+    {
+      "actual": 71.6,
+      "predicted": 51.5
+    },
+    {
+      "actual": 139.8,
+      "predicted": 65.8
+    },
+    {
+      "actual": 131.3,
+      "predicted": 205.1
+    },
+    {
+      "actual": 75.3,
+      "predicted": 53.3
+    },
+    {
+      "actual": 225.3,
+      "predicted": 186.1
+    },
+    {
+      "actual": 71.1,
+      "predicted": 88.0
+    },
+    {
+      "actual": 82.2,
+      "predicted": 62.6
+    },
+    {
+      "actual": 66.5,
+      "predicted": 50.0
+    },
+    {
+      "actual": 98.5,
+      "predicted": 51.0
+    },
+    {
+      "actual": 131.0,
+      "predicted": 73.2
+    },
+    {
+      "actual": 111.7,
+      "predicted": 110.4
+    },
+    {
+      "actual": 98.4,
+      "predicted": 100.1
+    },
+    {
+      "actual": 116.4,
+      "predicted": 181.3
+    },
+    {
+      "actual": 98.3,
+      "predicted": 102.2
+    },
+    {
+      "actual": 66.4,
+      "predicted": 118.8
+    },
+    {
+      "actual": 146.6,
+      "predicted": 165.0
+    },
+    {
+      "actual": 189.9,
+      "predicted": 137.3
+    },
+    {
+      "actual": 69.0,
+      "predicted": 74.6
+    },
+    {
+      "actual": 123.7,
+      "predicted": 83.9
+    },
+    {
+      "actual": 154.1,
+      "predicted": 222.2
+    },
+    {
+      "actual": 67.1,
+      "predicted": 72.0
+    },
+    {
+      "actual": 109.2,
+      "predicted": 80.0
+    },
+    {
+      "actual": 103.4,
+      "predicted": 51.6
+    },
+    {
+      "actual": 98.8,
+      "predicted": 104.3
+    },
+    {
+      "actual": 74.9,
+      "predicted": 35.6
+    },
+    {
+      "actual": 108.9,
+      "predicted": 83.5
+    },
+    {
+      "actual": 322.7,
+      "predicted": 123.6
+    },
+    {
+      "actual": 328.0,
+      "predicted": 340.8
+    },
+    {
+      "actual": 122.2,
+      "predicted": 171.2
+    },
+    {
+      "actual": 73.2,
+      "predicted": 61.0
+    },
+    {
+      "actual": 98.3,
+      "predicted": 56.3
+    },
+    {
+      "actual": 214.3,
+      "predicted": 235.7
+    },
+    {
+      "actual": 181.0,
+      "predicted": 144.0
+    },
+    {
+      "actual": 69.2,
+      "predicted": 38.6
+    },
+    {
+      "actual": 149.2,
+      "predicted": 311.6
+    },
+    {
+      "actual": 178.7,
+      "predicted": 119.2
+    },
+    {
+      "actual": 81.5,
+      "predicted": 66.7
+    },
+    {
+      "actual": 67.0,
+      "predicted": 101.1
+    },
+    {
+      "actual": 66.2,
+      "predicted": 31.6
+    },
+    {
+      "actual": 85.5,
+      "predicted": 73.2
+    },
+    {
+      "actual": 76.0,
+      "predicted": 68.4
+    },
+    {
+      "actual": 100.9,
+      "predicted": 37.3
+    },
+    {
+      "actual": 78.9,
+      "predicted": 28.5
+    },
+    {
+      "actual": 205.7,
+      "predicted": 86.6
+    },
+    {
+      "actual": 204.9,
+      "predicted": 153.6
+    },
+    {
+      "actual": 69.7,
+      "predicted": 39.0
+    },
+    {
+      "actual": 69.6,
+      "predicted": 70.1
+    },
+    {
+      "actual": 69.6,
+      "predicted": 52.4
+    },
+    {
+      "actual": 90.6,
+      "predicted": 52.2
+    },
+    {
+      "actual": 138.2,
+      "predicted": 74.9
+    },
+    {
+      "actual": 76.9,
+      "predicted": 43.8
+    },
+    {
+      "actual": 114.7,
+      "predicted": 91.3
+    },
+    {
+      "actual": 155.1,
+      "predicted": 98.6
+    },
+    {
+      "actual": 99.5,
+      "predicted": 67.5
+    },
+    {
+      "actual": 179.2,
+      "predicted": 333.4
+    },
+    {
+      "actual": 91.2,
+      "predicted": 32.7
+    },
+    {
+      "actual": 172.7,
+      "predicted": 87.3
+    },
+    {
+      "actual": 68.1,
+      "predicted": 63.5
+    },
+    {
+      "actual": 65.1,
+      "predicted": 77.6
+    },
+    {
+      "actual": 147.5,
+      "predicted": 279.5
+    },
+    {
+      "actual": 162.4,
+      "predicted": 154.7
+    },
+    {
+      "actual": 72.5,
+      "predicted": 46.5
+    },
+    {
+      "actual": 73.2,
+      "predicted": 62.0
+    },
+    {
+      "actual": 118.1,
+      "predicted": 74.2
+    },
+    {
+      "actual": 105.2,
+      "predicted": 218.2
+    },
+    {
+      "actual": 114.0,
+      "predicted": 52.1
+    },
+    {
+      "actual": 138.4,
+      "predicted": 169.3
+    },
+    {
+      "actual": 86.7,
+      "predicted": 45.3
+    },
+    {
+      "actual": 80.1,
+      "predicted": 27.9
+    },
+    {
+      "actual": 85.4,
+      "predicted": 66.2
+    },
+    {
+      "actual": 137.2,
+      "predicted": 46.4
+    },
+    {
+      "actual": 173.6,
+      "predicted": 50.7
+    },
+    {
+      "actual": 103.8,
+      "predicted": 155.5
+    },
+    {
+      "actual": 126.8,
+      "predicted": 105.9
+    },
+    {
+      "actual": 91.0,
+      "predicted": 43.0
+    },
+    {
+      "actual": 115.6,
+      "predicted": 66.5
+    },
+    {
+      "actual": 108.4,
+      "predicted": 176.8
+    },
+    {
+      "actual": 172.4,
+      "predicted": 76.1
+    },
+    {
+      "actual": 129.5,
+      "predicted": 70.4
+    },
+    {
+      "actual": 114.7,
+      "predicted": 167.3
+    },
+    {
+      "actual": 163.5,
+      "predicted": 121.0
+    },
+    {
+      "actual": 66.4,
+      "predicted": 34.2
+    },
+    {
+      "actual": 68.4,
+      "predicted": 76.6
+    },
+    {
+      "actual": 103.2,
+      "predicted": 139.5
+    },
+    {
+      "actual": 93.5,
+      "predicted": 83.8
+    },
+    {
+      "actual": 92.8,
+      "predicted": 166.1
+    },
+    {
+      "actual": 68.4,
+      "predicted": 86.3
+    },
+    {
+      "actual": 65.1,
+      "predicted": 30.8
+    },
+    {
+      "actual": 76.3,
+      "predicted": 46.7
+    },
+    {
+      "actual": 76.1,
+      "predicted": 62.2
+    },
+    {
+      "actual": 73.7,
+      "predicted": 92.3
+    },
+    {
+      "actual": 500.0,
+      "predicted": 369.2
+    },
+    {
+      "actual": 156.1,
+      "predicted": 73.8
+    },
+    {
+      "actual": 105.1,
+      "predicted": 229.1
+    },
+    {
+      "actual": 184.2,
+      "predicted": 153.3
+    },
+    {
+      "actual": 354.2,
+      "predicted": 126.5
+    },
+    {
+      "actual": 132.3,
+      "predicted": 40.5
+    },
+    {
+      "actual": 102.9,
+      "predicted": 109.3
+    },
+    {
+      "actual": 83.0,
+      "predicted": 108.1
+    },
+    {
+      "actual": 70.3,
+      "predicted": 28.5
+    },
+    {
+      "actual": 148.5,
+      "predicted": 123.2
+    },
+    {
+      "actual": 141.4,
+      "predicted": 190.3
+    },
+    {
+      "actual": 183.6,
+      "predicted": 194.6
+    },
+    {
+      "actual": 104.2,
+      "predicted": 45.5
+    },
+    {
+      "actual": 103.1,
+      "predicted": 39.5
+    },
+    {
+      "actual": 156.4,
+      "predicted": 60.0
+    },
+    {
+      "actual": 76.2,
+      "predicted": 63.7
+    },
+    {
+      "actual": 80.5,
+      "predicted": 75.4
+    },
+    {
+      "actual": 172.6,
+      "predicted": 213.7
+    },
+    {
+      "actual": 165.4,
+      "predicted": 245.4
+    },
+    {
+      "actual": 246.8,
+      "predicted": 216.2
+    },
+    {
+      "actual": 173.4,
+      "predicted": 73.4
+    },
+    {
+      "actual": 147.7,
+      "predicted": 99.9
+    },
+    {
+      "actual": 71.0,
+      "predicted": 52.0
+    },
+    {
+      "actual": 113.8,
+      "predicted": 88.3
+    },
+    {
+      "actual": 109.4,
+      "predicted": 63.0
+    },
+    {
+      "actual": 203.5,
+      "predicted": 157.4
+    },
+    {
+      "actual": 76.1,
+      "predicted": 72.3
+    },
+    {
+      "actual": 77.8,
+      "predicted": 66.6
+    },
+    {
+      "actual": 406.5,
+      "predicted": 224.8
+    },
+    {
+      "actual": 225.0,
+      "predicted": 133.7
+    },
+    {
+      "actual": 77.3,
+      "predicted": 77.2
+    },
+    {
+      "actual": 230.3,
+      "predicted": 179.9
+    },
+    {
+      "actual": 163.7,
+      "predicted": 209.7
+    },
+    {
+      "actual": 78.6,
+      "predicted": 89.9
+    },
+    {
+      "actual": 83.4,
+      "predicted": 106.7
+    },
+    {
+      "actual": 127.9,
+      "predicted": 84.2
+    },
+    {
+      "actual": 107.2,
+      "predicted": 93.9
+    },
+    {
+      "actual": 231.3,
+      "predicted": 324.1
+    },
+    {
+      "actual": 84.3,
+      "predicted": 70.1
+    },
+    {
+      "actual": 95.1,
+      "predicted": 153.1
+    },
+    {
+      "actual": 68.4,
+      "predicted": 71.8
+    },
+    {
+      "actual": 114.4,
+      "predicted": 137.2
+    },
+    {
+      "actual": 68.0,
+      "predicted": 78.7
+    },
+    {
+      "actual": 94.2,
+      "predicted": 89.0
+    },
+    {
+      "actual": 86.0,
+      "predicted": 70.6
+    },
+    {
+      "actual": 70.9,
+      "predicted": 82.3
+    },
+    {
+      "actual": 76.4,
+      "predicted": 52.8
+    },
+    {
+      "actual": 189.7,
+      "predicted": 297.8
+    },
+    {
+      "actual": 79.2,
+      "predicted": 66.4
+    },
+    {
+      "actual": 94.4,
+      "predicted": 139.0
+    },
+    {
+      "actual": 216.4,
+      "predicted": 72.1
+    },
+    {
+      "actual": 166.7,
+      "predicted": 82.9
+    },
+    {
+      "actual": 75.1,
+      "predicted": 42.2
+    },
+    {
+      "actual": 224.6,
+      "predicted": 129.1
+    },
+    {
+      "actual": 227.7,
+      "predicted": 107.8
+    },
+    {
+      "actual": 105.1,
+      "predicted": 174.9
+    },
+    {
+      "actual": 103.3,
+      "predicted": 58.3
+    },
+    {
+      "actual": 128.7,
+      "predicted": 86.2
+    },
+    {
+      "actual": 159.5,
+      "predicted": 207.2
+    },
+    {
+      "actual": 292.9,
+      "predicted": 182.2
+    },
+    {
+      "actual": 80.7,
+      "predicted": 32.3
+    },
+    {
+      "actual": 85.2,
+      "predicted": 137.3
+    },
+    {
+      "actual": 93.1,
+      "predicted": 49.1
+    },
+    {
+      "actual": 89.9,
+      "predicted": 79.9
+    },
+    {
+      "actual": 88.6,
+      "predicted": 73.1
+    },
+    {
+      "actual": 69.5,
+      "predicted": 78.6
+    },
+    {
+      "actual": 490.3,
+      "predicted": 372.1
+    },
+    {
+      "actual": 289.3,
+      "predicted": 189.3
+    },
+    {
+      "actual": 177.3,
+      "predicted": 217.6
+    },
+    {
+      "actual": 93.2,
+      "predicted": 92.1
+    },
+    {
+      "actual": 149.5,
+      "predicted": 139.4
+    },
+    {
+      "actual": 100.0,
+      "predicted": 75.4
+    },
+    {
+      "actual": 132.3,
+      "predicted": 186.9
+    },
+    {
+      "actual": 92.8,
+      "predicted": 111.6
+    },
+    {
+      "actual": 88.1,
+      "predicted": 162.9
+    },
+    {
+      "actual": 130.8,
+      "predicted": 216.6
+    },
+    {
+      "actual": 95.5,
+      "predicted": 80.6
+    },
+    {
+      "actual": 74.4,
+      "predicted": 35.4
+    },
+    {
+      "actual": 113.9,
+      "predicted": 60.8
+    },
+    {
+      "actual": 83.1,
+      "predicted": 133.9
+    },
+    {
+      "actual": 73.9,
+      "predicted": 56.9
+    },
+    {
+      "actual": 78.7,
+      "predicted": 77.4
+    },
+    {
+      "actual": 73.9,
+      "predicted": 40.9
+    },
+    {
+      "actual": 66.8,
+      "predicted": 66.1
+    },
+    {
+      "actual": 326.0,
+      "predicted": 204.6
+    },
+    {
+      "actual": 266.2,
+      "predicted": 167.7
+    },
+    {
+      "actual": 83.1,
+      "predicted": 75.4
+    },
+    {
+      "actual": 147.1,
+      "predicted": 143.0
+    },
+    {
+      "actual": 76.4,
+      "predicted": 127.6
+    },
+    {
+      "actual": 94.2,
+      "predicted": 25.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 2.3,
+      "predicted": 0.6
+    },
+    {
+      "actual": 1.6,
+      "predicted": 0.8
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 3.8,
+      "predicted": 0.2
+    },
+    {
+      "actual": 1.9,
+      "predicted": 1.3
+    },
+    {
+      "actual": 19.3,
+      "predicted": 27.0
+    },
+    {
+      "actual": 2.6,
+      "predicted": 1.2
+    },
+    {
+      "actual": 18.5,
+      "predicted": 16.5
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.5
+    },
+    {
+      "actual": 12.0,
+      "predicted": 12.6
+    },
+    {
+      "actual": 2.1,
+      "predicted": 2.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 2.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 40.4,
+      "predicted": 44.4
+    },
+    {
+      "actual": 6.3,
+      "predicted": 8.1
+    },
+    {
+      "actual": 1.3,
+      "predicted": 1.8
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 4.9,
+      "predicted": 3.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 6.3,
+      "predicted": 1.6
+    },
+    {
+      "actual": 2.3,
+      "predicted": 0.8
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 2.5,
+      "predicted": 1.4
+    },
+    {
+      "actual": 1.3,
+      "predicted": 0.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.6
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.6
+    },
+    {
+      "actual": 2.0,
+      "predicted": 1.2
+    },
+    {
+      "actual": 26.2,
+      "predicted": 19.6
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 7.5
+    },
+    {
+      "actual": 1.1,
+      "predicted": 0.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.4
+    },
+    {
+      "actual": 3.9,
+      "predicted": 0.4
+    },
+    {
+      "actual": 13.0,
+      "predicted": 9.2
+    },
+    {
+      "actual": 2.8,
+      "predicted": 0.6
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 1.4,
+      "predicted": 0.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 2.1,
+      "predicted": 4.7
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 2.3,
+      "predicted": 2.9
+    },
+    {
+      "actual": 11.0,
+      "predicted": 8.1
+    },
+    {
+      "actual": 1.1,
+      "predicted": 0.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.1
+    },
+    {
+      "actual": 1.3,
+      "predicted": 1.5
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.5
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 5.4,
+      "predicted": 3.0
+    },
+    {
+      "actual": 1.8,
+      "predicted": 1.5
+    },
+    {
+      "actual": 45.7,
+      "predicted": 77.0
+    },
+    {
+      "actual": 14.0,
+      "predicted": 9.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.0
+    },
+    {
+      "actual": 51.4,
+      "predicted": 31.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 12.4,
+      "predicted": 10.6
+    },
+    {
+      "actual": 1.8,
+      "predicted": 2.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.6
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.4
+    },
+    {
+      "actual": 11.8,
+      "predicted": 5.5
+    },
+    {
+      "actual": 19.4,
+      "predicted": 10.3
+    },
+    {
+      "actual": 12.7,
+      "predicted": 12.5
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.8
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.5
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 8.2,
+      "predicted": 6.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.7
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.6
+    },
+    {
+      "actual": 6.1,
+      "predicted": 5.5
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 7.7,
+      "predicted": 6.8
+    },
+    {
+      "actual": 0.0,
+      "predicted": 4.5
+    },
+    {
+      "actual": 3.2,
+      "predicted": 3.8
+    },
+    {
+      "actual": 11.1,
+      "predicted": 16.6
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.1
+    },
+    {
+      "actual": 1.8,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.5
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 13.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 2.4,
+      "predicted": 3.6
+    },
+    {
+      "actual": 6.5,
+      "predicted": 11.4
+    },
+    {
+      "actual": 3.0,
+      "predicted": 2.0
+    },
+    {
+      "actual": 56.4,
+      "predicted": 52.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 2.6
+    },
+    {
+      "actual": 15.0,
+      "predicted": 18.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.7
+    },
+    {
+      "actual": 3.6,
+      "predicted": 5.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.5
+    },
+    {
+      "actual": 2.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.5
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.5
+    },
+    {
+      "actual": 3.5,
+      "predicted": 3.8
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 3.9,
+      "predicted": 1.7
+    },
+    {
+      "actual": 18.7,
+      "predicted": 15.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 7.3,
+      "predicted": 6.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.4
+    },
+    {
+      "actual": 4.7,
+      "predicted": 6.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.1
+    },
+    {
+      "actual": 46.3,
+      "predicted": 24.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 3.0,
+      "predicted": 5.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.7
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.7
+    },
+    {
+      "actual": 6.1,
+      "predicted": 15.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.4
+    },
+    {
+      "actual": 8.3,
+      "predicted": 6.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.1
+    },
+    {
+      "actual": 1.1,
+      "predicted": 1.2
+    },
+    {
+      "actual": 3.0,
+      "predicted": 1.4
+    },
+    {
+      "actual": 6.1,
+      "predicted": 0.8
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.0
+    },
+    {
+      "actual": 1.8,
+      "predicted": 1.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 2.9,
+      "predicted": 0.8
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 2.1,
+      "predicted": 2.3
+    },
+    {
+      "actual": 18.8,
+      "predicted": 8.5
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.8
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 2.9,
+      "predicted": 2.8
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 9.0,
+      "predicted": 3.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 2.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.6
+    },
+    {
+      "actual": 1.9,
+      "predicted": 0.6
+    },
+    {
+      "actual": 51.8,
+      "predicted": 30.2
+    },
+    {
+      "actual": 2.0,
+      "predicted": 1.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 2.9,
+      "predicted": 0.5
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 1.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 2.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 29.3,
+      "predicted": 28.6
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 4.5,
+      "predicted": 4.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 54.1,
+      "predicted": 25.3
+    },
+    {
+      "actual": 6.7,
+      "predicted": 1.6
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 3.1,
+      "predicted": 2.4
+    },
+    {
+      "actual": 2.6,
+      "predicted": 7.8
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.6
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 1.1,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.1
+    },
+    {
+      "actual": 47.5,
+      "predicted": 22.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 7.4,
+      "predicted": 4.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.8
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 2.2,
+      "predicted": 1.1
+    },
+    {
+      "actual": 2.3,
+      "predicted": 3.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.5
+    },
+    {
+      "actual": 17.3,
+      "predicted": 16.8
+    },
+    {
+      "actual": 2.5,
+      "predicted": 1.7
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 12.5,
+      "predicted": 21.7
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.5
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 1.4,
+      "predicted": 0.8
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.7
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 2.5
+    },
+    {
+      "actual": 4.7,
+      "predicted": 4.7
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 4.1,
+      "predicted": 2.5
+    },
+    {
+      "actual": 3.0,
+      "predicted": 1.7
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.7
+    },
+    {
+      "actual": 2.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.7
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 12.4,
+      "predicted": 32.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.7
+    },
+    {
+      "actual": 1.2,
+      "predicted": 1.7
+    },
+    {
+      "actual": 0.0,
+      "predicted": 2.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 1.1,
+      "predicted": 5.3
+    },
+    {
+      "actual": 26.7,
+      "predicted": 26.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 5.1,
+      "predicted": 6.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 5.4,
+      "predicted": 1.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 30.3,
+      "predicted": 32.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.5
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.6
+    },
+    {
+      "actual": 4.2,
+      "predicted": 1.1
+    },
+    {
+      "actual": 57.2,
+      "predicted": 64.2
+    },
+    {
+      "actual": 2.1,
+      "predicted": 1.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.6
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.1
+    },
+    {
+      "actual": 19.1,
+      "predicted": 14.4
+    },
+    {
+      "actual": 1.6,
+      "predicted": 1.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.1
+    },
+    {
+      "actual": 14.2,
+      "predicted": 13.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.8
+    },
+    {
+      "actual": 2.3,
+      "predicted": 3.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 19.4,
+      "predicted": 13.4
+    },
+    {
+      "actual": 2.8,
+      "predicted": 1.9
+    },
+    {
+      "actual": 2.7,
+      "predicted": 0.7
+    },
+    {
+      "actual": 0.0,
+      "predicted": 3.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 2.9,
+      "predicted": 1.5
+    },
+    {
+      "actual": 23.5,
+      "predicted": 25.6
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 3.3,
+      "predicted": 2.0
+    },
+    {
+      "actual": 2.5,
+      "predicted": 3.6
+    },
+    {
+      "actual": 1.2,
+      "predicted": 1.4
+    },
+    {
+      "actual": 9.3,
+      "predicted": 14.8
+    },
+    {
+      "actual": 2.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 2.7
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 7.8,
+      "predicted": 6.6
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 7.4,
+      "predicted": 5.3
+    },
+    {
+      "actual": 10.8,
+      "predicted": 13.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 8.3,
+      "predicted": 1.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 4.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.5
+    },
+    {
+      "actual": 2.9,
+      "predicted": 0.1
+    },
+    {
+      "actual": 1.1,
+      "predicted": 0.8
+    },
+    {
+      "actual": 2.9,
+      "predicted": 0.6
+    },
+    {
+      "actual": 15.1,
+      "predicted": 6.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 2.8
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 1.2,
+      "predicted": 0.5
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.7
+    },
+    {
+      "actual": 7.0,
+      "predicted": 4.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 4.2,
+      "predicted": 1.9
+    },
+    {
+      "actual": 3.4,
+      "predicted": 5.4
+    },
+    {
+      "actual": 34.2,
+      "predicted": 15.1
+    },
+    {
+      "actual": 1.3,
+      "predicted": 0.6
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 1.2,
+      "predicted": 3.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.0
+    },
+    {
+      "actual": 4.7,
+      "predicted": 10.5
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 9.6,
+      "predicted": 15.3
+    },
+    {
+      "actual": 3.8,
+      "predicted": 0.6
+    },
+    {
+      "actual": 6.1,
+      "predicted": 6.3
+    },
+    {
+      "actual": 20.9,
+      "predicted": 32.7
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.1
+    },
+    {
+      "actual": 6.2,
+      "predicted": 14.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.5
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.5
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 1.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.7
+    },
+    {
+      "actual": 4.9,
+      "predicted": 3.1
+    },
+    {
+      "actual": 3.8,
+      "predicted": 4.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 1.4,
+      "predicted": 3.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 3.5,
+      "predicted": 5.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 14.8,
+      "predicted": 10.6
+    },
+    {
+      "actual": 13.1,
+      "predicted": 36.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.7
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.6
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 4.7,
+      "predicted": 1.4
+    },
+    {
+      "actual": 1.1,
+      "predicted": 0.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 3.9,
+      "predicted": 13.6
+    },
+    {
+      "actual": 9.9,
+      "predicted": 8.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.5
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.6
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.6
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 4.0,
+      "predicted": 2.8
+    },
+    {
+      "actual": 5.1,
+      "predicted": 1.6
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.6
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 8.9,
+      "predicted": 7.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 3.9,
+      "predicted": 14.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 2.7,
+      "predicted": 2.0
+    },
+    {
+      "actual": 2.7,
+      "predicted": 9.2
+    },
+    {
+      "actual": 1.4,
+      "predicted": 1.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 1.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 2.3,
+      "predicted": 0.8
+    },
+    {
+      "actual": 13.3,
+      "predicted": 9.5
+    },
+    {
+      "actual": 15.6,
+      "predicted": 18.5
+    },
+    {
+      "actual": 5.0,
+      "predicted": 2.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 9.1,
+      "predicted": 9.1
+    },
+    {
+      "actual": 4.0,
+      "predicted": 4.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 11.1,
+      "predicted": 7.8
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 2.3,
+      "predicted": 5.2
+    },
+    {
+      "actual": 32.3,
+      "predicted": 23.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.4
+    },
+    {
+      "actual": 2.4,
+      "predicted": 2.8
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.5
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 18.1,
+      "predicted": 36.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 29.8,
+      "predicted": 32.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 2.1,
+      "predicted": 1.8
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 3.9,
+      "predicted": 1.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.8
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.1
+    },
+    {
+      "actual": 2.9,
+      "predicted": 1.7
+    },
+    {
+      "actual": 1.8,
+      "predicted": 1.6
+    },
+    {
+      "actual": 4.9,
+      "predicted": 3.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.5
+    },
+    {
+      "actual": 3.0,
+      "predicted": 7.7
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 46.3,
+      "predicted": 41.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 1.6,
+      "predicted": 1.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.4
+    },
+    {
+      "actual": 7.7,
+      "predicted": 2.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 23.9,
+      "predicted": 11.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 4.2,
+      "predicted": 1.1
+    },
+    {
+      "actual": 15.9,
+      "predicted": 9.5
+    },
+    {
+      "actual": 3.0,
+      "predicted": 1.0
+    },
+    {
+      "actual": 3.2,
+      "predicted": 4.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.5
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.8
+    },
+    {
+      "actual": 2.6,
+      "predicted": 5.3
+    },
+    {
+      "actual": 1.9,
+      "predicted": 0.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 8.8,
+      "predicted": 8.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.4
+    },
+    {
+      "actual": 15.3,
+      "predicted": 11.6
+    },
+    {
+      "actual": 6.9,
+      "predicted": 5.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 3.2,
+      "predicted": 0.9
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 1.4,
+      "predicted": 0.1
+    },
+    {
+      "actual": 2.4,
+      "predicted": 1.4
+    },
+    {
+      "actual": 1.7,
+      "predicted": 0.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 2.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 44.7,
+      "predicted": 50.7
+    },
+    {
+      "actual": 1.4,
+      "predicted": 1.8
+    },
+    {
+      "actual": 0.0,
+      "predicted": 6.1
+    },
+    {
+      "actual": 5.0,
+      "predicted": 2.5
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.1
+    },
+    {
+      "actual": 0.0,
+      "predicted": 2.5
+    },
+    {
+      "actual": 5.1,
+      "predicted": 4.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 20.1,
+      "predicted": 25.2
+    },
+    {
+      "actual": 8.5,
+      "predicted": 10.0
+    },
+    {
+      "actual": 4.1,
+      "predicted": 4.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.8
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.0
+    },
+    {
+      "actual": 14.5,
+      "predicted": 15.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 10.6,
+      "predicted": 24.0
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.5
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.6
+    },
+    {
+      "actual": 9.8,
+      "predicted": 1.2
+    },
+    {
+      "actual": 23.6,
+      "predicted": 15.2
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 4.5,
+      "predicted": 1.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 1.8
+    },
+    {
+      "actual": 10.9,
+      "predicted": 14.4
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.3
+    },
+    {
+      "actual": 1.7,
+      "predicted": 3.3
+    },
+    {
+      "actual": 0.0,
+      "predicted": 0.8
+    },
+    {
+      "actual": 5.6,
+      "predicted": 10.2
+    }
+  ]
+}

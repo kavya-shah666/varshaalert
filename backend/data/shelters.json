@@ -1,0 +1,807 @@
+{
+  "KL01": [
+    {
+      "name": "Govt. Higher Secondary School, Thiruvananthapuram",
+      "lat": 8.4848,
+      "lon": 76.9575,
+      "capacity": 1200,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Thiruvananthapuram",
+      "lat": 8.5853,
+      "lon": 76.8681,
+      "capacity": 200,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Thiruvananthapuram",
+      "lat": 8.4954,
+      "lon": 76.8609,
+      "capacity": 700,
+      "helpline": "1077"
+    }
+  ],
+  "KL02": [
+    {
+      "name": "Govt. Higher Secondary School, Alappuzha",
+      "lat": 9.5386,
+      "lon": 76.3873,
+      "capacity": 1000,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Alappuzha",
+      "lat": 9.5023,
+      "lon": 76.302,
+      "capacity": 900,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Alappuzha",
+      "lat": 9.5689,
+      "lon": 76.3656,
+      "capacity": 400,
+      "helpline": "1077"
+    }
+  ],
+  "KL03": [
+    {
+      "name": "Govt. Higher Secondary School, Idukki",
+      "lat": 9.7908,
+      "lon": 76.9951,
+      "capacity": 200,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Idukki",
+      "lat": 9.895,
+      "lon": 77.0499,
+      "capacity": 500,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Idukki",
+      "lat": 9.813,
+      "lon": 77.0001,
+      "capacity": 1000,
+      "helpline": "1077"
+    }
+  ],
+  "KL04": [
+    {
+      "name": "Govt. Higher Secondary School, Ernakulam",
+      "lat": 9.9487,
+      "lon": 76.326,
+      "capacity": 1200,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Ernakulam",
+      "lat": 9.9824,
+      "lon": 76.3253,
+      "capacity": 700,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Ernakulam",
+      "lat": 9.9589,
+      "lon": 76.3414,
+      "capacity": 1300,
+      "helpline": "1077"
+    }
+  ],
+  "KL05": [
+    {
+      "name": "Govt. Higher Secondary School, Thrissur",
+      "lat": 10.5708,
+      "lon": 76.1516,
+      "capacity": 700,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Thrissur",
+      "lat": 10.5786,
+      "lon": 76.205,
+      "capacity": 1300,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Thrissur",
+      "lat": 10.5757,
+      "lon": 76.1398,
+      "capacity": 800,
+      "helpline": "1077"
+    }
+  ],
+  "KL06": [
+    {
+      "name": "Govt. Higher Secondary School, Palakkad",
+      "lat": 10.7238,
+      "lon": 76.6288,
+      "capacity": 600,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Palakkad",
+      "lat": 10.7288,
+      "lon": 76.7281,
+      "capacity": 600,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Palakkad",
+      "lat": 10.7008,
+      "lon": 76.6175,
+      "capacity": 1400,
+      "helpline": "1077"
+    }
+  ],
+  "KL07": [
+    {
+      "name": "Govt. Higher Secondary School, Malappuram",
+      "lat": 11.1445,
+      "lon": 76.0204,
+      "capacity": 700,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Malappuram",
+      "lat": 11.1254,
+      "lon": 76.0755,
+      "capacity": 1100,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Malappuram",
+      "lat": 11.0891,
+      "lon": 76.0182,
+      "capacity": 1000,
+      "helpline": "1077"
+    }
+  ],
+  "KL08": [
+    {
+      "name": "Govt. Higher Secondary School, Kozhikode",
+      "lat": 11.3367,
+      "lon": 75.8126,
+      "capacity": 500,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Kozhikode",
+      "lat": 11.2976,
+      "lon": 75.8192,
+      "capacity": 1200,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Kozhikode",
+      "lat": 11.3276,
+      "lon": 75.7611,
+      "capacity": 700,
+      "helpline": "1077"
+    }
+  ],
+  "KL09": [
+    {
+      "name": "Govt. Higher Secondary School, Wayanad",
+      "lat": 11.7311,
+      "lon": 76.0189,
+      "capacity": 1000,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Wayanad",
+      "lat": 11.712,
+      "lon": 76.0165,
+      "capacity": 400,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Wayanad",
+      "lat": 11.6542,
+      "lon": 76.0666,
+      "capacity": 200,
+      "helpline": "1077"
+    }
+  ],
+  "KL10": [
+    {
+      "name": "Govt. Higher Secondary School, Kannur",
+      "lat": 11.8464,
+      "lon": 75.3223,
+      "capacity": 800,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Kannur",
+      "lat": 11.827,
+      "lon": 75.4141,
+      "capacity": 900,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Kannur",
+      "lat": 11.8627,
+      "lon": 75.3271,
+      "capacity": 900,
+      "helpline": "1077"
+    }
+  ],
+  "TN01": [
+    {
+      "name": "Govt. Higher Secondary School, Chennai",
+      "lat": 13.0342,
+      "lon": 80.3008,
+      "capacity": 800,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Chennai",
+      "lat": 13.0464,
+      "lon": 80.2475,
+      "capacity": 1000,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Chennai",
+      "lat": 13.1033,
+      "lon": 80.2868,
+      "capacity": 1300,
+      "helpline": "1077"
+    }
+  ],
+  "TN02": [
+    {
+      "name": "Govt. Higher Secondary School, Tiruvallur",
+      "lat": 13.1222,
+      "lon": 79.968,
+      "capacity": 400,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Tiruvallur",
+      "lat": 13.1053,
+      "lon": 79.9067,
+      "capacity": 1300,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Tiruvallur",
+      "lat": 13.1653,
+      "lon": 79.8636,
+      "capacity": 700,
+      "helpline": "1077"
+    }
+  ],
+  "TN03": [
+    {
+      "name": "Govt. Higher Secondary School, Kancheepuram",
+      "lat": 12.8489,
+      "lon": 79.6925,
+      "capacity": 1300,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Kancheepuram",
+      "lat": 12.8174,
+      "lon": 79.6312,
+      "capacity": 200,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Kancheepuram",
+      "lat": 12.7729,
+      "lon": 79.7293,
+      "capacity": 1400,
+      "helpline": "1077"
+    }
+  ],
+  "TN04": [
+    {
+      "name": "Govt. Higher Secondary School, Cuddalore",
+      "lat": 11.6743,
+      "lon": 79.8255,
+      "capacity": 1000,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Cuddalore",
+      "lat": 11.7422,
+      "lon": 79.7386,
+      "capacity": 1400,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Cuddalore",
+      "lat": 11.7461,
+      "lon": 79.7046,
+      "capacity": 1400,
+      "helpline": "1077"
+    }
+  ],
+  "TN05": [
+    {
+      "name": "Govt. Higher Secondary School, Thanjavur",
+      "lat": 10.8388,
+      "lon": 79.1661,
+      "capacity": 400,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Thanjavur",
+      "lat": 10.804,
+      "lon": 79.1666,
+      "capacity": 1000,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Thanjavur",
+      "lat": 10.7598,
+      "lon": 79.1685,
+      "capacity": 1300,
+      "helpline": "1077"
+    }
+  ],
+  "TN06": [
+    {
+      "name": "Govt. Higher Secondary School, Madurai",
+      "lat": 9.9581,
+      "lon": 78.1609,
+      "capacity": 1100,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Madurai",
+      "lat": 9.9511,
+      "lon": 78.1308,
+      "capacity": 900,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Madurai",
+      "lat": 9.9673,
+      "lon": 78.1265,
+      "capacity": 500,
+      "helpline": "1077"
+    }
+  ],
+  "TN07": [
+    {
+      "name": "Govt. Higher Secondary School, Tirunelveli",
+      "lat": 8.6461,
+      "lon": 77.7243,
+      "capacity": 1000,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Tirunelveli",
+      "lat": 8.7557,
+      "lon": 77.6887,
+      "capacity": 800,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Tirunelveli",
+      "lat": 8.7157,
+      "lon": 77.7593,
+      "capacity": 1000,
+      "helpline": "1077"
+    }
+  ],
+  "TN08": [
+    {
+      "name": "Govt. Higher Secondary School, Coimbatore",
+      "lat": 11.0306,
+      "lon": 76.9687,
+      "capacity": 900,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Coimbatore",
+      "lat": 11.0802,
+      "lon": 76.9628,
+      "capacity": 700,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Coimbatore",
+      "lat": 10.9677,
+      "lon": 76.9884,
+      "capacity": 1400,
+      "helpline": "1077"
+    }
+  ],
+  "TN09": [
+    {
+      "name": "Govt. Higher Secondary School, Nilgiris",
+      "lat": 11.3433,
+      "lon": 76.6295,
+      "capacity": 200,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Nilgiris",
+      "lat": 11.3376,
+      "lon": 76.7101,
+      "capacity": 400,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Nilgiris",
+      "lat": 11.4673,
+      "lon": 76.7387,
+      "capacity": 1100,
+      "helpline": "1077"
+    }
+  ],
+  "MH01": [
+    {
+      "name": "Govt. Higher Secondary School, Mumbai",
+      "lat": 19.1468,
+      "lon": 72.9102,
+      "capacity": 300,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Mumbai",
+      "lat": 19.1557,
+      "lon": 72.9508,
+      "capacity": 300,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Mumbai",
+      "lat": 19.0278,
+      "lon": 72.9221,
+      "capacity": 800,
+      "helpline": "1077"
+    }
+  ],
+  "MH02": [
+    {
+      "name": "Govt. Higher Secondary School, Thane",
+      "lat": 19.2208,
+      "lon": 73.0607,
+      "capacity": 1100,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Thane",
+      "lat": 19.2512,
+      "lon": 73.1025,
+      "capacity": 500,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Thane",
+      "lat": 19.2688,
+      "lon": 73.0759,
+      "capacity": 1000,
+      "helpline": "1077"
+    }
+  ],
+  "MH03": [
+    {
+      "name": "Govt. Higher Secondary School, Raigad",
+      "lat": 18.5261,
+      "lon": 73.1373,
+      "capacity": 800,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Raigad",
+      "lat": 18.595,
+      "lon": 73.1283,
+      "capacity": 800,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Raigad",
+      "lat": 18.5389,
+      "lon": 73.1628,
+      "capacity": 200,
+      "helpline": "1077"
+    }
+  ],
+  "MH04": [
+    {
+      "name": "Govt. Higher Secondary School, Ratnagiri",
+      "lat": 16.9162,
+      "lon": 73.311,
+      "capacity": 200,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Ratnagiri",
+      "lat": 16.9252,
+      "lon": 73.2489,
+      "capacity": 200,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Ratnagiri",
+      "lat": 17.0459,
+      "lon": 73.2758,
+      "capacity": 400,
+      "helpline": "1077"
+    }
+  ],
+  "MH05": [
+    {
+      "name": "Govt. Higher Secondary School, Pune",
+      "lat": 18.5665,
+      "lon": 73.8257,
+      "capacity": 1400,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Pune",
+      "lat": 18.5777,
+      "lon": 73.8625,
+      "capacity": 200,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Pune",
+      "lat": 18.5512,
+      "lon": 73.8172,
+      "capacity": 400,
+      "helpline": "1077"
+    }
+  ],
+  "MH06": [
+    {
+      "name": "Govt. Higher Secondary School, Kolhapur",
+      "lat": 16.7604,
+      "lon": 74.2798,
+      "capacity": 500,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Kolhapur",
+      "lat": 16.7173,
+      "lon": 74.2822,
+      "capacity": 200,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Kolhapur",
+      "lat": 16.7614,
+      "lon": 74.1665,
+      "capacity": 500,
+      "helpline": "1077"
+    }
+  ],
+  "MH07": [
+    {
+      "name": "Govt. Higher Secondary School, Nashik",
+      "lat": 19.9311,
+      "lon": 73.8092,
+      "capacity": 900,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Nashik",
+      "lat": 19.9561,
+      "lon": 73.8096,
+      "capacity": 1400,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Nashik",
+      "lat": 19.9829,
+      "lon": 73.7941,
+      "capacity": 400,
+      "helpline": "1077"
+    }
+  ],
+  "MH08": [
+    {
+      "name": "Govt. Higher Secondary School, Nagpur",
+      "lat": 21.1721,
+      "lon": 79.0438,
+      "capacity": 900,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Nagpur",
+      "lat": 21.1637,
+      "lon": 79.1076,
+      "capacity": 500,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Nagpur",
+      "lat": 21.1584,
+      "lon": 79.1661,
+      "capacity": 1300,
+      "helpline": "1077"
+    }
+  ],
+  "AS01": [
+    {
+      "name": "Govt. Higher Secondary School, Kamrup Metro",
+      "lat": 26.0829,
+      "lon": 91.6705,
+      "capacity": 300,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Kamrup Metro",
+      "lat": 26.2068,
+      "lon": 91.7471,
+      "capacity": 1000,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Kamrup Metro",
+      "lat": 26.1448,
+      "lon": 91.7918,
+      "capacity": 1400,
+      "helpline": "1077"
+    }
+  ],
+  "AS02": [
+    {
+      "name": "Govt. Higher Secondary School, Barpeta",
+      "lat": 26.2564,
+      "lon": 91.0086,
+      "capacity": 900,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Barpeta",
+      "lat": 26.314,
+      "lon": 90.9665,
+      "capacity": 400,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Barpeta",
+      "lat": 26.3546,
+      "lon": 91.0058,
+      "capacity": 500,
+      "helpline": "1077"
+    }
+  ],
+  "AS03": [
+    {
+      "name": "Govt. Higher Secondary School, Dhubri",
+      "lat": 26.0238,
+      "lon": 90.0458,
+      "capacity": 900,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Dhubri",
+      "lat": 26.0437,
+      "lon": 90.0454,
+      "capacity": 600,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Dhubri",
+      "lat": 26.0749,
+      "lon": 90.0582,
+      "capacity": 1100,
+      "helpline": "1077"
+    }
+  ],
+  "AS04": [
+    {
+      "name": "Govt. Higher Secondary School, Nagaon",
+      "lat": 26.3453,
+      "lon": 92.7424,
+      "capacity": 500,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Nagaon",
+      "lat": 26.408,
+      "lon": 92.752,
+      "capacity": 1000,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Nagaon",
+      "lat": 26.4069,
+      "lon": 92.74,
+      "capacity": 700,
+      "helpline": "1077"
+    }
+  ],
+  "AS05": [
+    {
+      "name": "Govt. Higher Secondary School, Jorhat",
+      "lat": 26.6767,
+      "lon": 94.2305,
+      "capacity": 700,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Jorhat",
+      "lat": 26.7278,
+      "lon": 94.1581,
+      "capacity": 400,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Jorhat",
+      "lat": 26.7464,
+      "lon": 94.1315,
+      "capacity": 700,
+      "helpline": "1077"
+    }
+  ],
+  "AS06": [
+    {
+      "name": "Govt. Higher Secondary School, Lakhimpur",
+      "lat": 27.2,
+      "lon": 94.1413,
+      "capacity": 300,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Lakhimpur",
+      "lat": 27.1601,
+      "lon": 94.1015,
+      "capacity": 900,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Lakhimpur",
+      "lat": 27.2445,
+      "lon": 94.0821,
+      "capacity": 400,
+      "helpline": "1077"
+    }
+  ],
+  "AS07": [
+    {
+      "name": "Govt. Higher Secondary School, Dibrugarh",
+      "lat": 27.5276,
+      "lon": 94.9642,
+      "capacity": 400,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Dibrugarh",
+      "lat": 27.5018,
+      "lon": 94.9336,
+      "capacity": 200,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Dibrugarh",
+      "lat": 27.5273,
+      "lon": 94.894,
+      "capacity": 700,
+      "helpline": "1077"
+    }
+  ],
+  "AS08": [
+    {
+      "name": "Govt. Higher Secondary School, Cachar",
+      "lat": 24.8828,
+      "lon": 92.738,
+      "capacity": 800,
+      "helpline": "1077"
+    },
+    {
+      "name": "Community Relief Hall, Cachar",
+      "lat": 24.8332,
+      "lon": 92.7725,
+      "capacity": 700,
+      "helpline": "1077"
+    },
+    {
+      "name": "Multi-purpose Flood Shelter, Cachar",
+      "lat": 24.8842,
+      "lon": 92.8395,
+      "capacity": 200,
+      "helpline": "1077"
+    }
+  ]
+}

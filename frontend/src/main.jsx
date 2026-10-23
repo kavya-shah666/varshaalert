@@ -1,0 +1,15 @@
+// main.jsx - starting point of the React app.
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
+import 'leaflet/dist/leaflet.css'   // map styles
+import './index.css'                // Tailwind + our styles
+import App from './App.jsx'
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </StrictMode>,
+)

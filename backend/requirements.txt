@@ -1,0 +1,12 @@
+# Web API
+fastapi>=0.115
+uvicorn[standard]>=0.30
+# Data + Machine Learning
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+joblib>=1.4
+# Geo (DEM elevation GeoTIFF files)
+rasterio>=1.4
+# SMS alerts
+twilio>=9.0

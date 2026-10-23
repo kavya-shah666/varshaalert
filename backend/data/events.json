@@ -1,0 +1,24 @@
+[
+  {
+    "id": "wayanad_2024",
+    "name": "Wayanad Landslides 2024",
+    "state": "Kerala",
+    "focus_district": "KL09",
+    "start": "2024-07-13",
+    "event_time": "2024-07-30T02:00:00",
+    "description": "Extremely heavy rain triggered the Mundakkai-Chooralmala landslides in Wayanad in the early hours of 30 July 2024.",
+    "replay_start": "2024-07-20",
+    "replay_end": "2024-08-03"
+  },
+  {
+    "id": "chennai_2015",
+    "name": "Chennai Floods 2015",
+    "state": "Tamil Nadu",
+    "focus_district": "TN01",
+    "start": "2015-11-15",
+    "event_time": "2015-12-01T20:00:00",
+    "description": "Record rainfall on 1 December 2015 and the release of water from Chembarambakkam lake flooded large parts of Chennai.",
+    "replay_start": "2015-11-22",
+    "replay_end": "2015-12-05"
+  }
+]

@@ -1,0 +1,19 @@
+/* Tailwind CSS (utility classes like "bg-slate-900", "p-4", "rounded-xl") */
+@import "tailwindcss";
+
+body {
+  background: #f1f5f9;   /* light grey page background */
+  color: #0f172a;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+}
+
+/* Tailwind resets <img> sizes, which breaks Leaflet map tiles - undo that */
+.leaflet-container img { max-width: none !important; height: auto; }
+.leaflet-container { background: #dbe4ee; font-family: inherit; }
+
+/* Phone notification slide-in animation (Alert panel + citizen app) */
+@keyframes slide-down {
+  from { transform: translateY(-120%); opacity: 0; }
+  to   { transform: translateY(0); opacity: 1; }
+}
+.animate-slide-down { animation: slide-down 0.5s ease-out; }
